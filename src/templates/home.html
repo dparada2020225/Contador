@@ -1,0 +1,15 @@
+{% extends "layout.html" %}
+{% block content %}
+<div class="card">
+  <div class="card-header">
+    <h1 id="cantidad" >0</h1>
+  </div>
+  <div class="card-body">
+    
+      <button type="button" id='disminuir' onclick="disminuir()" class="btn btn-danger">Decrease</button>
+      <button type="button" id='resetear' onclick="reset()"class="btn btn-warning">Reset</button>
+      <button type="button" id='aumentar' onclick="aumentar()" class="btn btn-success" >Increase</button>
+    
+  </div>
+</div>
+{% endblock%}
